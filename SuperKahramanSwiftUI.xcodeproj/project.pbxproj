@@ -7,18 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		277AE55127C1AC4300625369 /* DetayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277AE55027C1AC4300625369 /* DetayView.swift */; };
+		277AE55527C1AF5900625369 /* OzelGorselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277AE55427C1AF5900625369 /* OzelGorselView.swift */; };
+		277AE55727C1BA9300625369 /* ListeRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277AE55627C1BA9300625369 /* ListeRowView.swift */; };
 		27B0818727C14F920047A489 /* SuperKahramanSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B0818627C14F920047A489 /* SuperKahramanSwiftUIApp.swift */; };
-		27B0818927C14F920047A489 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B0818827C14F920047A489 /* ContentView.swift */; };
+		27B0818927C14F920047A489 /* ListeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B0818827C14F920047A489 /* ListeView.swift */; };
 		27B0818B27C14F950047A489 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27B0818A27C14F950047A489 /* Assets.xcassets */; };
 		27B0818E27C14F950047A489 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27B0818D27C14F950047A489 /* Preview Assets.xcassets */; };
+		27B0819527C1500F0047A489 /* SuperKahraman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B0819427C1500F0047A489 /* SuperKahraman.swift */; };
+		27B0819727C153E70047A489 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B0819627C153E70047A489 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		277AE55027C1AC4300625369 /* DetayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayView.swift; sourceTree = "<group>"; };
+		277AE55427C1AF5900625369 /* OzelGorselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OzelGorselView.swift; sourceTree = "<group>"; };
+		277AE55627C1BA9300625369 /* ListeRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListeRowView.swift; sourceTree = "<group>"; };
 		27B0818327C14F920047A489 /* SuperKahramanSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperKahramanSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27B0818627C14F920047A489 /* SuperKahramanSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperKahramanSwiftUIApp.swift; sourceTree = "<group>"; };
-		27B0818827C14F920047A489 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		27B0818827C14F920047A489 /* ListeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListeView.swift; sourceTree = "<group>"; };
 		27B0818A27C14F950047A489 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27B0818D27C14F950047A489 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		27B0819427C1500F0047A489 /* SuperKahraman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperKahraman.swift; sourceTree = "<group>"; };
+		27B0819627C153E70047A489 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +62,14 @@
 			isa = PBXGroup;
 			children = (
 				27B0818627C14F920047A489 /* SuperKahramanSwiftUIApp.swift */,
-				27B0818827C14F920047A489 /* ContentView.swift */,
+				27B0818827C14F920047A489 /* ListeView.swift */,
+				27B0819427C1500F0047A489 /* SuperKahraman.swift */,
+				27B0819627C153E70047A489 /* MapView.swift */,
+				277AE55027C1AC4300625369 /* DetayView.swift */,
+				277AE55627C1BA9300625369 /* ListeRowView.swift */,
 				27B0818A27C14F950047A489 /* Assets.xcassets */,
 				27B0818C27C14F950047A489 /* Preview Content */,
+				277AE55427C1AF5900625369 /* OzelGorselView.swift */,
 			);
 			path = SuperKahramanSwiftUI;
 			sourceTree = "<group>";
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27B0818927C14F920047A489 /* ContentView.swift in Sources */,
+				277AE55527C1AF5900625369 /* OzelGorselView.swift in Sources */,
+				277AE55127C1AC4300625369 /* DetayView.swift in Sources */,
+				27B0818927C14F920047A489 /* ListeView.swift in Sources */,
+				277AE55727C1BA9300625369 /* ListeRowView.swift in Sources */,
+				27B0819727C153E70047A489 /* MapView.swift in Sources */,
 				27B0818727C14F920047A489 /* SuperKahramanSwiftUIApp.swift in Sources */,
+				27B0819527C1500F0047A489 /* SuperKahraman.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
